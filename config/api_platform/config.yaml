@@ -1,0 +1,7 @@
+'%sylius.model.product.class%':
+    collectionOperations:
+        admin_get:
+            filters:
+                - app.brand_filter
+                   
+                   
