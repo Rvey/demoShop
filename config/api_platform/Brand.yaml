@@ -1,0 +1,3 @@
+Loevgaard\SyliusBrandPlugin\Model\Brand:
+    attributes:
+        route_prefix: /

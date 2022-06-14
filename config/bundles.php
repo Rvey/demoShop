@@ -29,6 +29,7 @@ return [
     Sylius\Bundle\ReviewBundle\SyliusReviewBundle::class => ['all' => true],
     Sylius\Bundle\CoreBundle\SyliusCoreBundle::class => ['all' => true],
     Sylius\Bundle\ResourceBundle\SyliusResourceBundle::class => ['all' => true],
+    Loevgaard\SyliusBrandPlugin\LoevgaardSyliusBrandPlugin::class => ['all' => true],
     Sylius\Bundle\GridBundle\SyliusGridBundle::class => ['all' => true],
     winzou\Bundle\StateMachineBundle\winzouStateMachineBundle::class => ['all' => true],
     Sonata\BlockBundle\SonataBlockBundle::class => ['all' => true],
@@ -59,4 +60,5 @@ return [
     SyliusLabs\DoctrineMigrationsExtraBundle\SyliusLabsDoctrineMigrationsExtraBundle::class => ['all' => true],
     Sylius\PayPalPlugin\SyliusPayPalPlugin::class => ['all' => true],
     SyliusLabs\Polyfill\Symfony\Security\Bundle\SyliusLabsPolyfillSymfonySecurityBundle::class => ['all' => true],
+   
 ];
